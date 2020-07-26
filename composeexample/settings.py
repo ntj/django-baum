@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'events.apps.EventsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -74,7 +75,7 @@ WSGI_APPLICATION = 'composeexample.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 # settings.py
-   
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
